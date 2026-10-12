@@ -3,7 +3,7 @@
         minSessionVersion="1" maxSessionVersion="1">
 
   <Author>Leonidas Spathis</Author>
-  <Email>LeonidasSp@users.noreply.github.com</Email>
+  <Email>le.spathis@gmail.com</Email>
   <URL>https://github.com/LeonidasSp/chimerax-compare</URL>
 
   <Synopsis>Compare secondary and tertiary structure of several proteins at once</Synopsis>
