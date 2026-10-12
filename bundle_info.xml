@@ -1,0 +1,34 @@
+<BundleInfo name="ChimeraX-CompareStructures" version="0.1"
+        package="chimerax.compare_structures"
+        minSessionVersion="1" maxSessionVersion="1">
+
+  <Author>Leonidas Spathis</Author>
+  <URL>https://github.com/LeonidasSp/chimerax-compare</URL>
+
+  <Synopsis>Compare secondary and tertiary structure of several proteins at once</Synopsis>
+  <Description>Adds the "compare" command. It superposes two or more protein
+structures (orthologues, or a mutant and its wild type) with matchmaker and
+reports, in one step, pairwise RMSD, TM-score, sequence identity and
+secondary-structure agreement, the per-residue C-alpha deviation (also set as
+a residue attribute and coloured on the structures), the substitutions between
+each structure and the reference, and optional report files.
+  </Description>
+
+  <Categories>
+    <Category name="Structure Comparison"/>
+  </Categories>
+
+  <Dependencies>
+    <Dependency name="ChimeraX-Core" version="~=1.4"/>
+    <Dependency name="ChimeraX-Atomic" version="~=1.0"/>
+    <Dependency name="ChimeraX-MatchMaker" version="~=2.0"/>
+    <Dependency name="ChimeraX-DSSP" version="~=2.0"/>
+  </Dependencies>
+
+  <Classifiers>
+    <PythonClassifier>Development Status :: 3 - Alpha</PythonClassifier>
+    <PythonClassifier>License :: OSI Approved :: MIT License</PythonClassifier>
+    <ChimeraXClassifier>ChimeraX :: Command :: compare :: Structure Comparison :: Compare secondary and tertiary structure of two or more proteins</ChimeraXClassifier>
+  </Classifiers>
+
+</BundleInfo>
