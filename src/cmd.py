@@ -110,7 +110,8 @@ def _plot(path, ref, to_ref, max_deviation):
         x = [st["ref_nums"][i] for i, j in st["pairs"]]
         clipped = clipped or bool((st["dists"] > top).any())
         ax.plot(x, numpy.minimum(st["dists"], top), linewidth=1, label=st["match"].name)
-    ax.set_ylim(0, top * 1.02)
+    peak = max(float(st["dists"].max()) for st in to_ref)
+    ax.set_ylim(0, min(top, peak) * 1.05)
     ax.set_xlabel("Residue number in %s" % ref.name)
     ax.set_ylabel(u"Cα deviation (Å)" + (", clipped at %g" % top if clipped else ""))
     ax.legend(frameon=False, fontsize=8)

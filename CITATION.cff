@@ -1,0 +1,42 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below, and please also cite UCSF ChimeraX."
+title: "ChimeraX-CompareStructures: one-step comparison of secondary and tertiary structure for several proteins in UCSF ChimeraX"
+type: software
+authors:
+  - family-names: Spathis
+    given-names: Leonidas
+version: 0.1.0
+date-released: 2026-11-04
+license: MIT
+repository-code: "https://github.com/LeonidasSp/chimerax-compare"
+keywords:
+  - ChimeraX
+  - protein structure
+  - structural bioinformatics
+  - structure comparison
+  - secondary structure
+  - AlphaFold
+references:
+  - type: article
+    title: "UCSF ChimeraX: Tools for structure building and analysis"
+    authors:
+      - family-names: Meng
+        given-names: Elaine C.
+      - family-names: Goddard
+        given-names: Thomas D.
+      - family-names: Pettersen
+        given-names: Eric F.
+      - family-names: Couch
+        given-names: Greg S.
+      - family-names: Pearson
+        given-names: Zach J.
+      - family-names: Morris
+        given-names: John H.
+      - family-names: Ferrin
+        given-names: Thomas E.
+    journal: "Protein Science"
+    year: 2023
+    volume: 32
+    issue: 11
+    start: e4792
+    doi: "10.1002/pro.4792"
